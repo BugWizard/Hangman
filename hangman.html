@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      En Simpel Hangman Javascript
+    </title>
+    
+    <link href="hangman.css" rel="stylesheet">
+    <script src="hangman.js"></script>
+    
+  </head>
+  <body>
+    <div id="hangman-wrap">
+      <!-- [VÄNSTER : HANGMAN BILD] -->
+      <div id="hangman-left">
+        <img id="hangman-img" src="hangman.png"/>
+      </div>
+
+      <!-- [HÖGER : INTERFACE] -->
+      <div id="hangman-right">
+        <!-- [GISSA ORDEN (S)] -->
+        <div id="hangman-words"></div>
+<h2> Stop the man's impending doom and set him free!</h2>
+        <!-- [TILLÄNGLIGA BOKSTÄVER] -->
+        <div id="hangman-char"></div>
+
+        <!-- [KONTROLLER OCH LIV] -->
+        <div id="hangman-bottom">
+          <br>
+          Lives you got left: <span id="hangman-lives"></span> 
+          <input type="button" value="Reset" id="hangman-reset" disabled/>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
